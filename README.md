@@ -17,11 +17,11 @@ Teaching time for this module is primarily devoted to hands-on practical compute
 - **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
 
 #### Stalking Incidence Rate Map (Queensland, 2018)
-- **Description**: Choropleth of stalking incident rates by division.
+- **Description**: Created a Choropleth map of stalking incident rates by division.
 - **Libraries**: `leaflet`, `sf`, `readxl`, `tidyverse`
 
 #### Quarto Report of Crime Types (South West BCU London, 2022)
-- **Description**: Created a detailed report in R analyzing specific crime types.
+- **Description**: Created a detailed report analyzing specific crime types.
 - **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `gt`, `tidyverse`
 
 #### Quarto Report of Crime Types (West BCU London, 2022)
