@@ -4,7 +4,7 @@ This module will equip students with the theoretical and practical knowledge of 
 
 Teaching time for this module is primarily devoted to hands-on practical computer workshops. There is an expectation that students will prepare for these workshops in advance by engaging with the teaching materials. Weekly Moodle quizzes contribute to half of the marks for this module, with coursework making up the remaining marks.
 
-# Projects
+# Key Projects
 
 #### Vehicle Theft Density Map (Vancouver, 2020)
 - **Description**: Mapped vehicle thefts with neighborhood overlays.
