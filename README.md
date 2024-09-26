@@ -6,26 +6,45 @@ Teaching time for this module is primarily devoted to hands-on practical compute
 
 # Key Projects
 
-#### Vehicle Theft Density Map (Vancouver, 2020)
-- **Description**: Mapped vehicle thefts with neighborhood overlays.
-- **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
+#### Vehicle Theft Density  Map
+* Generated a density map illustrating thefts from vehicles in Vancouver throughout 2020, using crime data from a CSV file
+* Integrated a base map and overlaid Vancouver's neighborhood boundaries and names for clear contextualization
+* Visually represented the spatial distribution of thefts, aiding in hotspot identification and informing crime prevention strategies
 
-#### Fatal Shootings Density Map (New York City, 2019)
-- **Description**: Visualized shootings with precinct overlays.
-- **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
+**Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
 
-#### Two-Wheeled Vehicle Theft Density Map (Prague, 2022)
-- **Description**: Mapped hotspots for two-wheeled vehicle thefts.
-- **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
+#### Second Vehicle Theft Density Map
+* Created a density map depicting two-wheeled vehicle theft prevalence in Prague during 2022
+* Used KDE to identify statistically significant hotspots, pinpointing areas of heightened criminal activity
+* Ensured accuracy by limiting crime data to Prague's city boundary, offering insights crucial for law enforcement and urban planning strategies
 
-#### Stalking Incidence Rate Map (Queensland, 2018)
-- **Description**: Created a Choropleth map of stalking incident rates by division.
-- **Libraries**: `leaflet`, `sf`, `readxl`, `tidyverse`
+**Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
 
-#### Quarto Report of Crime Types (South West BCU London, 2022)
-- **Description**: Created a detailed report analyzing specific crime types.
-- **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `gt`, `tidyverse`
+#### Fatal Shootings Density Map
+* Generated a density map illustrating fatal shootings in New York City throughout 2019, based on crime data from a CSV file
+* Incorporated NYPD precinct boundaries and overlaid precinct numbers on the map for enhanced spatial context
+* Visualized the concentration of fatal incidents to inform law enforcement strategies and community engagement efforts aimed at addressing gun violence
+  
+**Libraries**: `ggspatial`, `sf`, `sfhotspot`, `tidyverse`
 
-#### Quarto Report of Crime Types (West BCU London, 2022)
-- **Description**: Created a detailed report identifying priority crime types and hotspots.
-- **Libraries**: `ggspatial`, `sf`, `sfhotspot`, `gt`, `tidyverse`
+#### Stalking Incidence Rate Map
+* Created a choropleth map showing stalking incident rates across Queensland police divisions in 2018, integrating incident counts and population data
+* Provided insights into the relative prevalence of stalking crimes, highlighting areas of heightened concern
+* Identified and displayed the names of the top 10 divisions with the highest stalking rates to guide policy-making and resource allocation
+
+**Libraries**: `leaflet`, `sf`, `readxl`, `tidyverse`
+
+#### Quarto Report of Crimes Types 
+* Created a detailed report in R analyzing specific crime types within the South West BCU of London
+* Utilized tables, maps, and charts to visually represent key crime types and high-risk areas
+* Provided data-driven recommendations for tasking team deployment, focusing on prioritizing crime problems and patrol areas based on current trends and geographic hotspots in the South West BCU
+
+**Libraries**: `ggspatial`, `sf`, `sfhotspot`, `gt`, `tidyverse`
+
+#### Second Quarto Report of Crimes Types
+* Created a Quarto report in R to analyze 2022 crime data for the West Area Basic Command Unit (BCU)
+* Identified priority crime types and hotspots for the Local Tasking Team, focusing on vehicle theft incidence rates by ward
+* Examined the relationship between deprivation levels and rates of violent and sexual crimes to inform potential government funding applications, while acknowledging limitations of the data
+
+**Libraries**: `ggspatial`, `sf`, `sfhotspot`, `gt`, `tidyverse`
+
